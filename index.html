@@ -13,9 +13,8 @@
     />
     <title>Portfolio</title>
   </head>
-  <body>
-    <header
-      id="main-header"
+  <body class="bg-[#FAF4F2]">
+    <header id="main-header"
       class="bg-orange-500 text-gray-100 py-4 text-md sticky top-0 xl:text-3xl xl:fixed xl:left-0 xl:top-[1rem] xl:bottom-[1rem] xl:-translate-x-[90%] xl:hover:translate-x-0 ease-linear duration-300 xl:rounded-r-lg"
     >
       <div
@@ -168,7 +167,7 @@
       <div class="container mx-auto px-4">
         <h2 class="text-5xl my-8 xl:text-7xl">Why hire me?</h2>
         <div
-          class="flex flex-col items-center gap-8 xl:flex-row xl:justify-center"
+          class="flex flex-col items-center gap-8 xl:flex-row xl:justify-evenly xl:text-center"
         >
           <div class="w-60 flex flex-col items-center py-8 px-4">
             <img src="images/card.png" alt="" />
@@ -205,6 +204,305 @@
         </div>
       </div>
     </section>
+
+    <!-- section portfolio -->
+    <section id="portfolio" class="my-32">
+      <div class="container mx-auto px-4">
+        <div class="portfolio-items my-8 flex items-end justify-between">
+          <h2 class="text-5xl xl:text-7xl">Portfolio</h2>
+        <button class="hidden xl:flex items-center gap-2"><a class="text-3xl text-gray-500" href="#">See More</a>
+          <i class="fa-solid fa-arrow-right text-gray-500 flex items-center"></i>
+        </button>
+        </div>
+        <div class="portfolio-images grid grid-cols-2 xl:grid-cols-3 gap-4">
+          <img class="hidden xl:inline-block xl:w-full" src="./images/Image.png" alt="">
+          <img class="hidden xl:inline-block xl:w-full" src="./images/portfolio.svg" alt="">
+          <img class="w-full" src="./images/Image(1).png" alt="">
+          <img class="w-full" src="./images/Image(2).png" alt="">
+          <img class="w-full" src="./images/Image(3).png" alt="">
+          <img class="w-full" src="./images/Image(4).png" alt="">
+        </div>
+        <div class="portfolio-button text-end xl:hidden">
+          <button class="my-8 ml-auto"><a class="text-3xl text-gray-500" href="#">See More</a></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- section clients -->
+    <section id="clients" class="mt-8 bg-orange-500 text-white">
+      <div class="container mx-auto px-4 pb-8 xl:pb-16">
+        <h2 class="xl:hidden text-5xl leading-loose">I'm Loved By Users And Clients</h2>
+        <h2 class="hidden xl:flex justify-center items-center text-8xl leading-relaxed text-center">I'm Loved By Users And Clients Worldwide</h2>
+        <div class="grid xl:grid-cols-2 gap-16">
+          <div class="ronald-people rounded-3xl my-8 xl:my-16  bg-gray-100 p-12 text-black">
+            <div class="ronald-img flex items-center gap-3 mb-8">
+              <img class="rounded-full w-20 h-20" src="./images/card.png" alt="">
+              <div class="ronald-name flex flex-col justify-between ">
+                <h4 class="text-xl">Ronald Richards</h4>
+                <span class="text-xl text-gray-500">UI/UX Designer</span>
+              </div>
+            </div>
+            <div class="stars flex gap-3 items-center mb-8">
+              <h5 class="text-xl font-bold">4.5</h5>
+              <div>
+                <i class="fa-solid fa-star text-orange-500 text-xl"></i>
+                <i class="fa-solid fa-star text-orange-500 text-xl"></i>
+                <i class="fa-solid fa-star text-orange-500 text-xl"></i>
+                <i class="fa-solid fa-star text-orange-500 text-xl"></i>
+                <i class="fa-solid fa-star text-orange-500 text-xl"></i>
+              </div>
+            </div>
+            <p class="mt-8 text-sm ">One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
+          </div>
+          <div class="hidden xl:block ronald-people rounded-3xl my-8 xl:my-16  bg-gray-100 p-12 text-black">
+            <div class="ronald-img flex items-center gap-3 mb-8">
+              <img class="rounded-full w-20 h-20" src="./images/card.png" alt="">
+              <div class="ronald-name flex flex-col justify-between ">
+                <h4 class="text-xl">Ronald Richards</h4>
+                <span class="text-xl text-gray-500">UI/UX Designer</span>
+              </div>
+            </div>
+            <div class="stars flex gap-3 items-center mb-8">
+              <h5 class="text-xl font-bold">4.5</h5>
+              <div>
+                <i class="fa-solid fa-star text-orange-500 text-xl"></i>
+                <i class="fa-solid fa-star text-orange-500 text-xl"></i>
+                <i class="fa-solid fa-star text-orange-500 text-xl"></i>
+                <i class="fa-solid fa-star text-orange-500 text-xl"></i>
+                <i class="fa-solid fa-star text-orange-500 text-xl"></i>
+              </div>
+            </div>
+            <p class="mt-8 text-sm ">One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
+          </div>
+        </div>
+        <div class="dotted flex gap-4 items-center justify-center">
+          <div class="w-10 h-4 rounded-full bg-gray-500"></div>
+          <div class="w-4 h-4 rounded-full bg-gray-100"></div>
+          <div class="w-4 h-4 rounded-full bg-gray-100"></div>
+          <div class="hidden xl:block w-4 h-4 rounded-full bg-gray-100"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section price plans -->
+    <section id="price-plans">
+      <div class="container mx-auto py-32">
+        <h1 class="text-center mb-16 font-normal text-4xl xl:text-7xl">Price Plance</h1>
+        
+          <div class="grid gap-[67px] xl:grid-cols-3">
+            <div class="col hover:shadow-2xl bg-[#F9F9F9] w-[335px] h-[500px] mx-auto rounded-lg border pb-6">
+              <h2 class="h-[66px] bg-[#FF9B70] rounded-t-lg text-2xl flex items-center justify-center text-white">Silver</h2>
+              <div class="price">
+                <h2 class="text-center mt-8 mb-7 text-color-black text-3xl font-bold">$1.00 <span class="text-gray-400 font-normal text-[15px]">/Hour</span></h2>
+              </div>
+              <div class="plans w-[253px] ml-11">
+                <div class="checks mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px]">
+                    <i class="fa-solid fa-check text-[#FF7315]"></i>
+                    UI Design
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="checks mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px]">
+                    <i class="fa-solid fa-check text-[#FF7315]"></i>
+                    Web development
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    Logo design
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    Seo optimization
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    WordPress integration
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    5 Websites
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    Unlimited User
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    20 GB Bandwith
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="col hover:shadow-2xl bg-[#F9F9F9] w-[335px] h-[500px] mx-auto rounded-lg border pb-6">
+              <h2 class="h-[66px] bg-[#FF9B70] rounded-t-lg text-2xl flex items-center justify-center text-white">Gold</h2>
+              <div class="price">
+                <h2 class="text-center mt-8 mb-7 text-color-black text-3xl font-bold">$50.00 <span class="text-gray-400 font-normal text-[15px]">/Hour</span></h2>
+              </div>
+              <div class="plans w-[253px] ml-11">
+                <div class="checks mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px]">
+                    <i class="fa-solid fa-check text-[#FF7315]"></i>
+                    UI Design
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="checks mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px]">
+                    <i class="fa-solid fa-check text-[#FF7315]"></i>
+                    Web development
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    Logo design
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    Seo optimization
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    WordPress integration
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    5 Websites
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    Unlimited User
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    20 GB Bandwith
+                  </h2>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col hover:shadow-2xl bg-[#F9F9F9] hidden xl:grid w-[335px] h-[500px] mx-auto rounded-lg border pb-6">
+              <h2 class="h-[66px] bg-[#FF9B70] rounded-t-lg text-2xl flex items-center justify-center text-white">Dimond</h2>
+              <div class="price">
+                <h2 class="text-center mt-8 mb-7 text-color-black text-3xl font-bold">$80.00 <span class="text-gray-400 font-normal text-[15px]">/Hour</span></h2>
+              </div>
+              <div class="plans w-[253px] ml-11">
+                <div class="checks mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px]">
+                    <i class="fa-solid fa-check text-[#FF7315]"></i>
+                    UI Design
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="checks mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px]">
+                    <i class="fa-solid fa-check text-[#FF7315]"></i>
+                    Web development
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    Logo design
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    Seo optimization
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    WordPress integration
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    5 Websites
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x mb-[9px]">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    Unlimited User
+                  </h2>
+                  <hr class="h-[1px] mt-[8px]">
+                </div>
+                <div class="x">
+                  <h2 class="flex items-center gap-3 font-bold text-[16px] text-gray-500">
+                    <i class="fa-solid fa-xmark text-gray-500"></i>
+                    20 GB Bandwith
+                  </h2>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        
+
+      </div>
+    </section>
+
+    <!-- email me -->
+    <section id="email-me" class="mt-[100px] mb-[124px]">
+      <div class="container mx-auto rounded-lg bg-[#FF7315] h-[354px] xl:h-[224px]">
+        <div class="item grid xl:grid-cols-2  place-items-center pl-[20px] pl-[165px] gap-12 pt-16 pb-26">
+          <h2 class="text-3xl xl:text-5xl font-semibold leading-loose text-white">Interested working <br> with me?</h2>
+          <button class="bg-white hover:shadow-xl flex justify-center items-center w-[259px] h-[70px] rounded-lg">
+            <a href="#" class="text-xl xl:text-2xl font-semibold">Email Me</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- section blog -->
     <section id="blog">
       <div class="container mx-auto px-4">
         <h2 class="text-3xl xl:text-5xl">Blog</h2>
@@ -299,6 +597,7 @@
         </div>
       </div>
     </section>
+
     <script src="https://cdn.tailwindcss.com"></script>
   </body>
 </html>
